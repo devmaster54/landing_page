@@ -8,7 +8,6 @@ body {
   font-size: 14px;
 }
 
-
 .img-logo {
   width: 100px;
 }
@@ -24,13 +23,14 @@ section {
 }
 
 /* line 15, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
-input:hover, input:focus {
+input:hover,
+input:focus {
   outline: none !important;
 }
 
 /* line 18, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
 .gray_bg {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 /* line 21, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
@@ -75,7 +75,8 @@ a {
 }
 
 /* line 41, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
-a:hover, a :hover {
+a:hover,
+a :hover {
   color: #55b236;
   text-decoration: none;
   -webkit-transition: 0.5s;
@@ -83,7 +84,12 @@ a:hover, a :hover {
 }
 
 /* line 48, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #14303a;
   font-family: "Poppins", sans-serif;
 }
@@ -187,7 +193,10 @@ img {
 }
 
 /* line 118, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
-a:focus, .button:focus, button:focus, .btn:focus {
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
   text-decoration: none;
   outline: none;
   box-shadow: none;
@@ -806,7 +815,7 @@ ul {
 .banner_part .banner_social_icon li {
   color: #777777;
   font-size: 13px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* line 171, E:/161 Real estate/161_Real_state_html/sass/_banner.scss */
@@ -903,7 +912,7 @@ ul {
   right: 0;
   width: 60%;
   height: 100%;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   z-index: -1;
 }
 
@@ -1072,7 +1081,7 @@ ul {
   display: inline-block;
   margin-bottom: 15px;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #7f7f7f;
   padding-left: 33px;
 }
@@ -1226,7 +1235,7 @@ ul {
   z-index: 1;
   -webkit-transition: 1s;
   transition: 1s;
-  min-height : 490px;
+  min-height: 490px;
 }
 
 /* line 44, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
@@ -2670,7 +2679,13 @@ ul {
 }
 
 /* line 223, E:/161 Real estate/161_Real_state_html/sass/_blog_part.scss */
-.blog_part .right_single_blog .single_blog .media-body .list-unstyled li:hover a {
+.blog_part
+  .right_single_blog
+  .single_blog
+  .media-body
+  .list-unstyled
+  li:hover
+  a {
   color: #55b236;
 }
 
@@ -2747,49 +2762,24 @@ ul {
 
 /**********************footer part css*******************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-.footer_part {
-  background-color: #1b212e;
-  padding: 30px 0px 25px;
-}
-
-@media (max-width: 576px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part {
-    padding: 70px 0px 25px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part {
-    padding: 70px 0px 25px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part {
-    padding: 70px 0px 25px;
-  }
-}
 
 @media (max-width: 576px) {
   /* line 17, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part .single_footer_part {
+  .single_footer_part {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 17, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part .single_footer_part {
+  .single_footer_part {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 17, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part .single_footer_part {
+  .single_footer_part {
     margin-bottom: 20px;
   }
 }
@@ -3041,7 +3031,7 @@ h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -3874,7 +3864,8 @@ h6 {
 
 /* line 798, E:/161 Real estate/161_Real_state_html/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3916,7 +3907,8 @@ h6 {
 
 /* line 835, E:/161 Real estate/161_Real_state_html/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3964,7 +3956,8 @@ h6 {
 
 /* line 876, E:/161 Real estate/161_Real_state_html/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4006,7 +3999,8 @@ h6 {
 
 /* line 913, E:/161 Real estate/161_Real_state_html/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4048,7 +4042,8 @@ h6 {
 
 /* line 950, E:/161 Real estate/161_Real_state_html/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4096,7 +4091,8 @@ h6 {
 
 /* line 991, E:/161 Real estate/161_Real_state_html/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4362,7 +4358,7 @@ h6 {
 
 /* line 20, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -4409,7 +4405,7 @@ h6 {
 
 /* line 63, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -4468,7 +4464,7 @@ h6 {
 
 /* line 105, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -4876,7 +4872,8 @@ h6 {
 }
 
 /* line 491, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.blog-info-link li i, .blog-info-link li span {
+.blog-info-link li i,
+.blog-info-link li span {
   font-size: 13px;
   margin-right: 5px;
 }
@@ -5006,7 +5003,8 @@ h6 {
 }
 
 /* line 610, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.blog_right_sidebar .search_widget .input-group button i, .blog_right_sidebar .search_widget .input-group button span {
+.blog_right_sidebar .search_widget .input-group button i,
+.blog_right_sidebar .search_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
@@ -5038,7 +5036,8 @@ h6 {
 }
 
 /* line 646, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.blog_right_sidebar .newsletter_widget .input-group button i, .blog_right_sidebar .newsletter_widget .input-group button span {
+.blog_right_sidebar .newsletter_widget .input-group button i,
+.blog_right_sidebar .newsletter_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
@@ -5175,7 +5174,8 @@ h6 {
 }
 
 /* line 893, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.blog-pagination .page-link i, .blog-pagination .page-link span {
+.blog-pagination .page-link i,
+.blog-pagination .page-link span {
   font-size: 13px;
 }
 
@@ -5293,7 +5293,8 @@ h6 {
 }
 
 /* line 1012, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.single-post-area .navigation-top .like-info i, .single-post-area .navigation-top .like-info span {
+.single-post-area .navigation-top .like-info i,
+.single-post-area .navigation-top .like-info span {
   font-size: 16px;
   margin-right: 5px;
 }
@@ -5304,7 +5305,8 @@ h6 {
 }
 
 /* line 1021, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.single-post-area .navigation-top .comment-count i, .single-post-area .navigation-top .comment-count span {
+.single-post-area .navigation-top .comment-count i,
+.single-post-area .navigation-top .comment-count span {
   font-size: 16px;
   margin-right: 5px;
 }
@@ -5321,7 +5323,8 @@ h6 {
 }
 
 /* line 1037, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
-.single-post-area .navigation-top .social-icons li i, .single-post-area .navigation-top .social-icons li span {
+.single-post-area .navigation-top .social-icons li i,
+.single-post-area .navigation-top .social-icons li span {
   font-size: 14px;
   color: #999999;
 }
@@ -5428,7 +5431,7 @@ h6 {
 
 /* line 1126, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -5470,7 +5473,7 @@ h6 {
 
 /* line 1154, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -5792,16 +5795,16 @@ h6 {
   display: inline-block;
   border: 1px solid transparent;
   font-size: 15px;
-  font-weight: 500;
-  padding: 12px 54px;
-  border-radius: 4px;
-  color: #fff;
-  border: 1px solid #e8ebef;
-  text-transform: uppercase;
-  background-color: #55b236;
+  font-weight: 700;
+  padding: 7px 18px;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(225, 139, 37);
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin: 0 auto;
+  display: block;
 }
 
 @media (max-width: 767px) {
@@ -5844,11 +5847,6 @@ h6 {
 }
 
 /* line 128, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
-.button-contactForm {
-  color: #fff;
-  border-color: #e8ebef;
-  padding: 12px 25px;
-}
 
 /* End Main Button Area css
 ============================================================================================ */
@@ -5864,7 +5862,8 @@ h6 {
 }
 
 /* line 9, E:/161 Real estate/161_Real_state_html/sass/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -5900,18 +5899,14 @@ h6 {
 }
 
 /* line 49, E:/161 Real estate/161_Real_state_html/sass/_contact.scss */
-.form-contact .form-group {
-  margin-bottom: 30px;
-}
 
 /* line 53, E:/161 Real estate/161_Real_state_html/sass/_contact.scss */
 .form-contact .form-control {
   border: 1px solid #f0e9ff;
   border-radius: 5px;
-  height: 48px;
+  height: 34px;
   padding-left: 18px;
   font-size: 13px;
-  background: transparent;
 }
 
 /* line 61, E:/161 Real estate/161_Real_state_html/sass/_contact.scss */
@@ -5929,7 +5924,7 @@ h6 {
 /* line 72, E:/161 Real estate/161_Real_state_html/sass/_contact.scss */
 .form-contact textarea {
   border-radius: 12px;
-  height: 100% !important;
+  height: 109px !important;
 }
 
 /*=================== contact form end ====================*/
@@ -5997,7 +5992,7 @@ h6 {
   display: block;
 }
 
-.passion_height img.custom_blockchain_icon_2, 
+.passion_height img.custom_blockchain_icon_2,
 .passion_height:hover img.custom_blockchain_icon_1,
 .passion_height:hover img.custom_iot_icon_1,
 .passion_height img.custom_iot_icon_2,
